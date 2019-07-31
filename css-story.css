@@ -1,0 +1,81 @@
+table, th, td {
+    border: 1px  #ffaca3;
+    border-style: dotted;
+    background: #f6f6f6;
+
+
+}
+
+header {
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 300px;
+
+}
+p{
+
+}
+
+body
+{
+    width:90%;
+    margin: auto;
+    color: #555555;
+    font-family: Serif font, serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.875;
+background-color: #dadada;
+   background-image: url("vcard-background-9.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+
+
+
+}
+a:hover
+{
+    color: hotpink;
+}
+q
+{
+    font-size:160% ;
+    background-color: #bec2c2;
+    margin: auto;
+    border-left:3px #555555 dashed;
+
+}
+
+
+.good
+{
+color: darkcyan;
+}
+.bad
+{
+color: crimson;
+}
+
+.notification{
+    background: #ffaca3;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+}
+
+
+footer{
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffaca3;
+    color: white;
+    text-align: center;
+}
