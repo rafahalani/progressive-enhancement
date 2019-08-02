@@ -5,8 +5,9 @@ table, th, td {
 
 }
 
-tr:nth-child(even){background-color: #f2f2f2}
-
+tr:nth-child(even) {background-color: #f2f2f2}
+tr:nth-child(odd) {background-color: #cdcdcd
+}
 th {
     background-color: #4CAF50;
     color: white;
@@ -29,12 +30,12 @@ h1,h3,h4{font-family: 'Permanent Marker', cursive;}
 body
 {
     width:90%;
-    margin-left: 100px;
+    margin-left: 50px;
     color: #555555;
     font-family: 'Indie Flower', cursive;
     font-size: 18px;
     font-weight: 300;
-    line-height: 1.875;
+    line-height: 1.5;
     background-color: #dadada;
     background-image: url("vcard-background-9.jpg");
     background-repeat: no-repeat;
@@ -56,21 +57,26 @@ q
     background-color: #bec2c2;
     margin: auto;
     border-left:3px #555555 dashed;
+    font-style: italic;
 }
 
 
 .good
 {
-color: darkcyan;
+    color: darkcyan;
+    text-transform: uppercase;
 }
 
 
 .bad
 {
-color: crimson;
+    color: crimson;
+    text-transform: uppercase;
 }
 
-
+.header{
+    background-color: burlywood;
+}
 .notification{
     background: #8bbfff;
     padding:.5rem 1rem;
